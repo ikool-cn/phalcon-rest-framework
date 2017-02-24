@@ -1,0 +1,18 @@
+{
+    "require": {
+        "dmkit/phalcon-jwt-auth" : "dev-master",
+        "qiniu/php-sdk": "^7.0",
+		"phpmailer/phpmailer": "~5.2",
+		"phalcon/incubator": "^3.0",
+		"duncan3dc/fork-helper" : "dev-master"
+    },
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	},
+	"#require#" : {
+		"overtrue/pinyin": "2.*"
+	}
+}
